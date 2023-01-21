@@ -1,0 +1,44 @@
+﻿<Window x:Class="Attack25.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Attack25"
+        mc:Ignorable="d"
+        Title="Attack25(beta)" Height="450" Width="800">
+    <Viewbox>
+        <Grid>
+        <Button Content="1" HorizontalAlignment="Left" Height="68" Margin="55,45,0,0" VerticalAlignment="Top" Width="107" Name="Panel1" FontSize="35" Click="Panel1_Click"/>
+        <Button Content="2" HorizontalAlignment="Left" Height="68" Margin="162,45,0,0" VerticalAlignment="Top" Width="107" Name="Panel2" FontSize="35" Click="Panel2_Click"/>
+        <Button Content="3" HorizontalAlignment="Left" Height="68" Margin="269,45,0,0" VerticalAlignment="Top" Width="107" Name="Panel3" FontSize="35" Click="Panel3_Click"/>
+        <Button Content="4" HorizontalAlignment="Left" Height="68" Margin="376,45,0,0" VerticalAlignment="Top" Width="107" Name="Panel4" FontSize="35" Click="Panel4_Click"/>
+        <Button Content="5" HorizontalAlignment="Left" Height="68" Margin="483,45,0,0" VerticalAlignment="Top" Width="107" Name="Panel5" FontSize="35" Click="Panel5_Click"/>
+        <Button Content="6" HorizontalAlignment="Left" Height="68" Margin="55,113,0,0" VerticalAlignment="Top" Width="107" Name="Panel6" FontSize="35" Click="Panel6_Click"/>
+        <Button Content="7" HorizontalAlignment="Left" Height="68" Margin="162,113,0,0" VerticalAlignment="Top" Width="107" Name="Panel7" FontSize="35" Click="Panel7_Click"/>
+        <Button Content="8" HorizontalAlignment="Left" Height="68" Margin="269,113,0,0" VerticalAlignment="Top" Width="107" Name="Panel8" FontSize="35" Click="Panel8_Click"/>
+        <Button Content="9" HorizontalAlignment="Left" Height="68" Margin="376,113,0,0" VerticalAlignment="Top" Width="107" Name="Panel9" FontSize="35" Click="Panel9_Click"/>
+        <Button Content="10" HorizontalAlignment="Left" Height="68" Margin="483,113,0,0" VerticalAlignment="Top" Width="107" Name="Panel10" FontSize="35" Click="Panel10_Click"/>
+        <Button Content="11" HorizontalAlignment="Left" Height="68" Margin="55,181,0,0" VerticalAlignment="Top" Width="107" Name="Panel11" FontSize="35" Click="Panel11_Click"/>
+        <Button Content="12" HorizontalAlignment="Left" Height="68" Margin="162,181,0,0" VerticalAlignment="Top" Width="107" Name="Panel12" FontSize="35" Click="Panel12_Click"/>
+        <Button Content="13" HorizontalAlignment="Left" Height="68" Margin="269,181,0,0" VerticalAlignment="Top" Width="107" Name="Panel13" FontSize="35" Click="Panel13_Click"/>
+        <Button Content="14" HorizontalAlignment="Left" Height="68" Margin="376,181,0,0" VerticalAlignment="Top" Width="107" Name="Panel14" FontSize="35" Click="Panel14_Click"/>
+        <Button Content="15" HorizontalAlignment="Left" Height="68" Margin="483,181,0,0" VerticalAlignment="Top" Width="107" Name="Panel15" FontSize="35" Click="Panel15_Click"/>
+        <Button Content="16" HorizontalAlignment="Left" Height="68" Margin="55,249,0,0" VerticalAlignment="Top" Width="107" x:Name="Panel16" FontSize="35" Click="Panel16_Click"/>
+        <Button Content="17" HorizontalAlignment="Left" Height="68" Margin="162,249,0,0" VerticalAlignment="Top" Width="107" x:Name="Panel17" FontSize="35" Click="Panel17_Click"/>
+        <Button Content="18" HorizontalAlignment="Left" Height="68" Margin="269,249,0,0" VerticalAlignment="Top" Width="107" x:Name="Panel18" FontSize="35" Click="Panel18_Click"/>
+        <Button Content="19" HorizontalAlignment="Left" Height="68" Margin="376,249,0,0" VerticalAlignment="Top" Width="107" x:Name="Panel19" FontSize="35" Click="Panel19_Click"/>
+        <Button Content="20" HorizontalAlignment="Left" Height="68" Margin="483,249,0,0" VerticalAlignment="Top" Width="107" x:Name="Panel20" FontSize="35" Click="Panel20_Click"/>
+        <Button Content="21" HorizontalAlignment="Left" Height="68" Margin="55,317,0,0" VerticalAlignment="Top" Width="107" x:Name="Panel21" FontSize="35" Click="Panel21_Click"/>
+        <Button Content="22" HorizontalAlignment="Left" Height="68" Margin="162,317,0,0" VerticalAlignment="Top" Width="107" x:Name="Panel22" FontSize="35" Click="Panel22_Click"/>
+        <Button Content="23" HorizontalAlignment="Left" Height="68" Margin="269,317,0,0" VerticalAlignment="Top" Width="107" x:Name="Panel23" FontSize="35" Click="Panel23_Click"/>
+        <Button Content="24" HorizontalAlignment="Left" Height="68" Margin="376,317,0,0" VerticalAlignment="Top" Width="107" x:Name="Panel24" FontSize="35" Click="Panel24_Click"/>
+        <Button Content="25" HorizontalAlignment="Left" Height="68" Margin="483,317,0,0" VerticalAlignment="Top" Width="107" x:Name="Panel25" FontSize="35" Click="Panel25_Click"/>
+
+        <Button Content="0" HorizontalAlignment="Left" Height="54" Margin="654,120,0,0" VerticalAlignment="Top" Width="91" x:Name="GreenCount" FontSize="35" Background="#50A623" BorderThickness="2,2,2,2" BorderBrush="White" Click="GreenCount_Click"/>
+        <Button Content="0" HorizontalAlignment="Left" Height="54" Margin="654,188,0,0" VerticalAlignment="Top" Width="91" x:Name="RedCount" FontSize="35" Background="#C22C2C" BorderThickness="2,2,2,2" BorderBrush="White" Click="RedCount_Click"/>
+        <Button Content="0" HorizontalAlignment="Left" Height="54" Margin="654,256,0,0" VerticalAlignment="Top" Width="91" x:Name="WhiteCount" FontSize="35" Background="#FFFFFF" BorderThickness="2,2,2,2" BorderBrush="Black" Click="WhiteCount_Click"/>
+        <Button Content="0" HorizontalAlignment="Left" Height="54" Margin="654,324,0,0" VerticalAlignment="Top" Width="91" x:Name="BlueCount" FontSize="35" Background="#3477CB" BorderThickness="2,2,2,2" BorderBrush="White" Click="BlueCount_Click"/>
+            <Button Content="Reset" HorizontalAlignment="Left" Margin="750,10,0,0" VerticalAlignment="Top" Name="ResetButton" Click="ResetButton_Click"/>
+        </Grid>
+    </Viewbox>
+</Window>
